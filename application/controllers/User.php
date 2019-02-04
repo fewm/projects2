@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Baseweb extends CI_Controller {
+class User extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,19 +20,23 @@ class Baseweb extends CI_Controller {
 	 */
 	public function index()
 	{
-		$data['page']="home";
+		$data['page']="user";
 		$this->load->view('template',$data);
 	}
-	public function staf_kelas_karyawan(){
-		$data['page']="staf_kelas_karyawan";
+	public function edit(){
+		$data['page']="edit";
 		$this->load->view('template',$data);
 	}
-	public function knoledge(){
-		$data['page']="knoledge";
+	public function forum(){
+		$data['page']="forum";
 		$this->load->view('template',$data);
 	}
-	public function administrator(){
-		$data['page']="administrator";
+	public function managemen_dokumen(){
+		$data['page']="managemen_dokumen";
+		$this->load->view('template',$data);
+	}
+	public function managemen_video(){
+		$data['page']="managemen_video";
 		$this->load->view('template',$data);
 	}
 }
