@@ -7,6 +7,7 @@ body {
   height: 16px;
   vertical-align: text-bottom;
   color: #ffffff;
+  background-color: #343a40;
 }
 
 /*
@@ -40,8 +41,11 @@ body {
 }
 
 .navbar {
-      margin-bottom: 50px;
+      margin-bottom: 5px !important;
       border-radius: 0;
+      background-color: #191970 !important;
+      font-color: #ffffff !important;
+
     }
     
     /* Remove the jumbotron's default bottom margin */ 
