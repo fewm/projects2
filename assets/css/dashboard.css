@@ -39,7 +39,6 @@ body {
   background: linear-gradient(to bottom, #F0F8FF 10%, #ffffff 50%, #F0F8FF 100%);
 
 }
-
 .navbar {
       margin-bottom: 5px !important;
       border-radius: 0;
@@ -177,3 +176,4 @@ body {
 
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
+.cursor-pointer { color:red; }
