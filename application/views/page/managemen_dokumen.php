@@ -1,37 +1,17 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
- 
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item" color="#fff">
-        <a class="nav-link" href="#" color="#fff">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
+<h6 class="sidebar-content d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+      
+      <span><button>download File</button>
+   <button>Submit File</button>
+   </span>
+      <a class="d-flex align-items-center text-muted" href="#">
+        <span data-feather="plus-circle"></span>
+      </a>
+</h6>
 
 
 
-<h1 class="h2">pencrian download</h1><br>
+<h1 class="h2">penacrian download</h1><br>
 <div class="row">
 
 
