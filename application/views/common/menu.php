@@ -76,13 +76,13 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link <?php echo $page=="managemen_dokumen"?"active":""; ?>" href="<?php echo base_url(); ?>user/managemen_dokumen">
+        <a class="nav-link <?php echo ($page=="managemen_dokumen" or $page=="submit_file")?"active":""; ?>" href="<?php echo base_url(); ?>user/managemen_dokumen">
           <span data-feather="users"></span>
           Manajemen Dokumen
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link <?php echo $page=="managemen_video"?"active":""; ?>" href="<?php echo base_url(); ?>user/managemen_video">
+        <a class="nav-link <?php echo ($page=="managemen_video" or $page=="upload_video")?"active":""; ?>" href="<?php echo base_url(); ?>user/managemen_video">
           <span data-feather="video"></span>
           Manajemen Video
         </a>

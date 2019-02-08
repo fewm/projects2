@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Project S2 - <?=$title?></title>
+    <title>Project S2 <?php echo isset($title)?"- ".$title:"";?></title>
 	<?php require_once 'common/style_loader.php'; ?>
   </head>
 

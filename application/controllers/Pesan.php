@@ -14,6 +14,7 @@ class Pesan extends CI_Controller {
 		$this->load->view('template',$data);
 	}
 	public function pesan_baru(){
+		$data['title']="Pesan Baru";
 		$data['page']="pesan_baru";
 		$data['user']=$this->master_model->get_all("data_user");
 		$this->load->view('template',$data);
@@ -41,16 +42,19 @@ class Pesan extends CI_Controller {
 				redirect(base_url()."pesan/pesan_baru?pesan=Pesan gagal dikirim...&type=error");
 			}
         }
+		$data['title']="Pesan Baru";
 		$data['page']="pesan_baru";
 		$data['user']=$this->master_model->get_all("data_user");
 		$this->load->view('template',$data);
 	}
 	public function kontak_masuk(){
+		$data['title']="Kontak Masuk";
 		$data['page']="kontak_masuk";
 		$data['pesan']=$this->master_model->get_all("data_pesan",array("email",$this->session->email));
 		$this->load->view('template',$data);
 	}
 	public function kontak_keluar(){
+		$data['title']="Kontak Keluar";
 		$data['page']="kontak_keluar";
 		$data['pesan']=$this->master_model->get_all("data_pesan",array("email_from",$this->session->email));
 		$this->load->view('template',$data);

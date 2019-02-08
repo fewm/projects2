@@ -30,6 +30,7 @@ class Login extends CI_Controller {
 		}
 	}
 	public function registrasi(){
+		$data['title']="Registrasi";
 		$data['page']="registrasi";
 		$this->load->view('template',$data);
 	}

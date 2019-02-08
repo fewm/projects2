@@ -21,18 +21,22 @@ class Baseweb extends CI_Controller {
 	public function index()
 	{
 		$data['page']="home";
+		$data['title']="Home";
 		$this->load->view('template',$data);
 	}
 	public function staf_kelas_karyawan(){
+		$data['title']="Staf Kelas Karyawan";
 		$data['page']="staf_kelas_karyawan";
 		$this->load->view('template',$data);
 	}
 	public function knoledge(){
 		$data['page']="knoledge";
+		$data['title']="Knoledge";
 		$this->load->view('template',$data);
 	}
 	public function administrator(){
 		$data['page']="administrator";
+		$data['title']="Administrator";
 		$this->load->view('template',$data);
 	}
 }
