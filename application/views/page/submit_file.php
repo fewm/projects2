@@ -24,10 +24,6 @@ $(document).ready(function(){
 <?php } ?>
 <form action="<?php echo base_url();?>user/upload_file" method="post" enctype="multipart/form-data" >
     <div class="form-group">
-      <label for="exampleFormControlInput1">Name</label>
-      <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-    </div>
-    <div class="form-group">
       <label for="exampleFormControlInput3">Email</label>
       <input type="email" name="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
     </div>
@@ -79,7 +75,7 @@ $(document).ready(function(){
 	-->
     <div class="form-group">
       <label >Select File</label><br />
-      <label for="file_upload" class="btn btn-dark" >Brows File</label><span id="file_name" style="padding-left:10px;" >No File Choose</span>
+      <label for="file_upload" class="btn btn-dark" >Brows File</label><span id="file_name" style="padding-left:10px;" >No File Choose</span><br /><font color="red">*File Type: PDF, MAX Size: 20MB</font>
       <input type="file" name="file_upload" id="file_upload" style="display:none;" class="form-control-file" >
     </div>
 	<!--

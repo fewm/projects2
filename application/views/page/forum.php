@@ -5,8 +5,3 @@
         discussions powered by Vanilla.
     </a>
 </noscript>
-<div class="vanilla-credit">
-    <a class="vanilla-anchor" href="http://vanillaforums.com">
-        Discussions by <span class="vanilla-logo">Vanilla</span>
-    </a>
-</div>

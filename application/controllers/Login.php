@@ -21,7 +21,9 @@ class Login extends CI_Controller {
 			$newdata = array(
 				'uid'  => $data_get['id'],
 				'logged_in' => TRUE,
-				'email' => $data_get['email']
+				'email' => $data_get['email'],
+				'level' => $data_get['status'],
+				'uname' => $data_get['username']
 			);
 			$this->session->set_userdata($newdata);
 			redirect(base_url()."?pesan=Login berhasil, Kamu sekarang dapat menggunakan Aplikasi sepenuhnya!!!&type=sukses");

@@ -37,7 +37,7 @@ $(document).ready(function(){
   </div>
   <div class="form-group">
     <label >Select Video</label><br />
-    <label for="file_upload" class="btn btn-dark" >Brows Video</label><span id="file_name" style="padding-left:10px;" >No Video Choose</span>
+    <label for="file_upload" class="btn btn-dark" >Brows Video</label><span id="file_name" style="padding-left:10px;" >No Video Choose </span><br /><font color="red">*File Type: MP4, MAX Size: 100MB</font>
     <input type="file" name="file_upload" id="file_upload" style="display:none;" class="form-control-file" >
   </div>
   <h6 class="h6">Sharing Option</h6>
